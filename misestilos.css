@@ -1,3 +1,7 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .titulo{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -11,11 +15,14 @@
 }
 
 .menu{
+    text-align: center;
     padding: 25px;
     background-color: #F47920;
     width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     float: left;
+    font-size: 300%;
+    font-weight: 50;
     
 }
 .tabla{
@@ -23,9 +30,36 @@
     margin: 0,5cm;
 }
 .p {
-    border: black 10px dotted;
-    margin: 5px;
-    padding: 5px;
-    background-color: lightblue;
+    border: #005883 2px dotted;
+    margin: 50px;
+    padding: 50px;
+    background-color: #F47920;
     background-clip: content-box;
+  }
+  .titulo2 {
+
+    text-align: center;
+    font-size: 300%;
+    font-weight: 50;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .imagen1 {
+    width: 60%;
+    height: 10em;
+    border: black 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+
+  }
+  .tabla
+  {
+    width: 75%;
+    margin: 30px;
+
+  }
+  .foto{
+    width: 30%;
+    margin: 30px;
+    border-image: fill;
   }
