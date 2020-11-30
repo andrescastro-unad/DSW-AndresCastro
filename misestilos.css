@@ -1,5 +1,9 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+      background-color: #ededed;
+      background-image: url("mi-imagen.jpg");
+    
 }
 
 .titulo{
@@ -13,17 +17,13 @@ body{
     scroll-behavior: auto;
     
 }
-
-.menu{
-    text-align: center;
-    padding: 25px;
-    background-color: #F47920;
-    width: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    float: left;
-    font-size: 300%;
-    font-weight: 50;
-    
+.titulo1{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 500%;
+  font-weight: 400; 
+  padding: 20px 20px 20px 20px;
+  
 }
 .tabla{
     width: 25px;
@@ -63,3 +63,53 @@ body{
     margin: 30px;
     border-image: fill;
   }
+  .menuCSS3{
+    text-align: center;
+    padding: 25px;
+    background-color: #F47920;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    font-size: 100%;
+    font-weight: 100;
+    
+  }
+  .menuCSS3 ul {
+		display: flex;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	.menuCSS3 a {
+    
+    display: block;
+    font-size: 200%;
+    padding: 1em;
+    width: 100%;
+		background-color: #F47920;
+		text-decoration: none;
+    color: #191C26;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
+	.menuCSS3 a:hover {
+		background-color: #F0B429;
+	}
+	.menuCSS3 ul li ul {
+		display: none;
+	}
+	.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+		display: block;
+  }
+  
+
+.menu{
+  text-align: center;
+  padding: 25px;
+  background-color: #F47920;
+  width: 100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  float: left;
+  font-size: 300%;
+  font-weight: 500;
+  
+}
